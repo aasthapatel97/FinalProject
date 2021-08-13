@@ -34,9 +34,7 @@ let myFlashcards = [
         }
     },
     {
-        "question": "Q. Complete the Haiku: 
-        An ocean voyage
-        As waves break over the bow",
+        "question": "Q. Complete the Haiku: [1] An ocean voyage [2] As waves break over the bow",
         "hint": "Count the number syllables",    
         "skills": ["Creative Writing", 'Writing concretely and vividly'],
         "image" : "images/barn-owl-2550068__340.webp",
