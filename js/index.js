@@ -10,7 +10,7 @@ let myFlashcards = [
             "17",
             "10"
         ],
-        "correct": 0,
+        "correct": 1,
         "response": {
             "Jack": 1,
             "Bill": 0
