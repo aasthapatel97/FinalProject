@@ -1,15 +1,11 @@
 // Create/Update to database
+// Create/Update to database
 // firebase.database().ref('deck/flashcards').set(myFlashcards);
 
 // Remove myFlashcards from the database
 // firebase.database().ref('deck/flashcards').remove();
 
 // Read database
-function displayQuestion(queryData, num) {
-    question = queryData[num];
-    console.log(question);
-    selected = num;
-    
 let fc = firebase.database().ref('deck/flashcards');
 let jsonString;
 fc.get().then((snapshot) => {
