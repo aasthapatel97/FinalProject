@@ -3,20 +3,32 @@
   <head>
     <meta charset=“utf-8”>
     <title> Summative Assessement </title>
+    <link rel="stylesheet" href="../style/style.css">
+
   </head>
   <body>
      <h1> Course 101: <TOPIC> </h1>  
    <h3> FINAL QUIZ </h3>
-       
-<p> @Wang - Here, I need to add 4 questions. 3 MCQs (without immediate feedback, we'll just take the user input and store it in firebase. Later in the next page, we'll display the data in the Student Dashboard </p>
 
-<ul>
-<li> Question # 1 - MCQ (No immediate feedback required)
-<li> Question # 2 - MCQ (No immediate feedback required)
-<li> Question # 3 - MCQ (No immediate feedback required)
-<li> Question # 4 - MCQ (No immediate feedback required), this could also be a question where we ask them for a text input
-</ul>   
+     <ul id="skill">
+  
+  </ul>
+       
+    <p id="title"> <b></b> </p>
    
+   <p><b>Hint</b> </p>
+   <div id="hint">
+   </div>
+
+   <p>Answer</p>
+  <div>
+    <input id="text_answer" type="text" value="" />
+    <button onclick="submitTextAnswer()">Submit</button>
+   </div>
+
+  <p><b>Feedback</b> </p>
+   <div id="feedback">
+   </div>
 
     <p> << Go to : <a href="https://aasthapatel97.github.io/finalProject/"> <b> HOME </b> </a> </p>
     
@@ -26,5 +38,18 @@
     <p> << Go to : <a href="https://aasthapatel97.github.io/finalProject/"> <b> HOME </b> </a> </p>
       <p> << Go BACK to: <a href="three.html"> <b> Learning objective 2 </b> || Go to: <a href="five.html"> <b> STUDENT DASHBOARD </b> </a> </p>
        
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>   
+
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+      <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-analytics.js"></script>
+      <script src="../js/firebase-connector.js"></script>
+      <script src="../js/four.js"></script>
+      <script src="../js/utils.js"></script>
   </body>
 </html>
