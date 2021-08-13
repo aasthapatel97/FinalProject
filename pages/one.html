@@ -3,14 +3,15 @@
   <head>
     <meta charset=“utf-8”>
     <title> LO1 </title>
+    <link rel="stylesheet" href="../style/style.css">
+
   </head>
   <body>
  <h1> Course 101: <TOPIC> </h1>  
    <h3> Learning Objective # 1 </h3>
-<ul>
-<li> Skill # 1 
-<li> Skill # 2
-</ul>
+  <ul id="skill">
+  
+  </ul>
    
    <img src="images/Stick-figures.png" alt="Add a relevant picture here">
    <img src="images/Stick-figures.png" alt="Add a relevant video here if needed">
@@ -20,14 +21,36 @@
 
    </p>
    
-   <p> <b> @Wang - I need to add a learning activity here, Multiple choice question with 3 options. We take an input from the learners and give immediate feedback or correct/incorrect </b> </p>
+   <p id="title"> <b></b> </p>
+   <div id="answer">          
+   </div>
+
+   <p><b>Hint</b> </p>
+   <div id="hint">
+   </div>
+
+   <p><b>Feedback</b> </p>
+   <div id="feedback">
+   </div>
    
    
     <p> Now, let's move on to the second learning objective </p>
     <p> <<  Go BACK to <a href="https://aasthapatel97.github.io/finalProject/"> HOME </a> || Go to the NEXT PAGE: <a href="two.html"> <b> Learning Objective # 2 </b>  </a> >> </p>
    
     
-    
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>   
+
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+      <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-analytics.js"></script>
+      <script src="../js/firebase-connector.js"></script>
+      <script src="../js/one.js"></script>
+      <script src="../js/utils.js"></script>
 
   </body>
 </html>
