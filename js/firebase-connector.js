@@ -1,6 +1,6 @@
 
 //My web app's Firebase configuration
-For Firebase JS SDK v7.20.0 and later, measurementId is optional
+//For Firebase JS SDK v7.20.0 and later, measurementId is optional
 var firebaseConfig = {
  apiKey: "AIzaSyDJ0qgyro6JSHoskRGpQmv8ATbTFh_s9CM",
  authDomain: "best-learning-tool-949ce.firebaseapp.com",
