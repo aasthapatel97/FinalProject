@@ -51,7 +51,7 @@ let myFlashcards = [
         }
     },
     {
-        "question": "Q. How many total syllables are there in a Haiku?",
+        "question": "Q1. How many total syllables are there in a Haiku?",
         "hint": "If the syllable pattern is A-B-C, total syllables = A+B+C [Haiku's syllable pattern is 5-7-5]",    
         "skills": ["Literary interpretation", 'Close reading of literature'],
         "image" : "images/barn-owl-2550068__340.webp",
@@ -68,7 +68,7 @@ let myFlashcards = [
         }
     },
     {
-        "question": "Q. Which line(s) have 7 syllables? ",
+        "question": "Q2. Which line(s) have 7 syllables? ",
         "hint": "Celebration (Ce-le-bra-tion) has 4 syllables",    
         "skills": ["Syllable counting", 'Recognition of the conventions of traditional Japanese haiku'],
         "image" : "images/barn-owl-2550068__340.webp",
@@ -85,7 +85,7 @@ let myFlashcards = [
         }
     },
     {
-        "question": "Q. Complete the Haiku: [1] An ocean voyage [2] As waves break over the bow",
+        "question": "Q3. Complete the Haiku: [1] An ocean voyage [2] As waves break over the bow",
         "hint": "Count the number syllables",    
         "skills": ["Creative Writing", 'Writing concretely and vividly'],
         "image" : "images/barn-owl-2550068__340.webp",
@@ -102,7 +102,7 @@ let myFlashcards = [
         }
     },
     {
-        "question": "Write a haiku",
+        "question": "Q4.Write a haiku",
         "hint": "Unleash your creativity",    
         "skills": ["Creative Writing", 'Writing concretely and vividly'],
         "image" : "images/barn-owl-2550068__340.webp",
